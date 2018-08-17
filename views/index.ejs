@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <h1>Number guessing game</h1>
+  
+      <p>We have selected a random number between 1 and 100. See if you can 
+        guess it in 10 turns or fewer. We'll tell you if your guess was too 
+        high or too low.</p>
+  
+      <div class="form">
+        <label for="guessField">Enter a guess: </label><input type="text" 
+        id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+      </div>
+  
+      <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+      </div>
+      
+      <ul id="datalist"></ul>
+
+      <p>了解目前前端技術ＪＡＶＡＳＣＲＩＰＴ並使用的更熟練。
+        版控工具的加入與表達新的想法。
+        完善工作環境，讓工作更便利。
+        熟悉MAC作業系統操作方式。
+        與漢書討論技術成長。</p>
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="/javascripts/vue.js"></script>
+  </body>
+</html>
